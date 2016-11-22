@@ -27,6 +27,7 @@
     <!-- Theme CSS -->
     <link href="css/new-age.min.css" rel="stylesheet">
     <link href="css/clock.css" rel="stylesheet">
+    <link href='css/animate.css' rel='stylesheet'>
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -125,7 +126,14 @@
         <div class="container">
             <h2 class='text-center'>Its going down!</h2>
             <div class="row">
-                <img class='img-responsive center-block' src="http://www.eldinfo.com/wp-content/uploads/2015/07/ELD-compliance-timeline-2015.png">
+                <div class="box fade-in one">
+                    <img class='img-repsonsive' src="img/timeline-top.png">
+                </div>
+                 
+                <div class="box fade-in two">
+                   <img class='img-responsive' style='margin:auto;' src="img/timeline-bottom.png">
+                </div>
+            </div>
         </div>
     </section>
 
@@ -231,7 +239,7 @@
 
     <!-- jQuery -->
     <script src="vendor/jquery/jquery.min.js"></script>
-
+    
     <!-- Bootstrap Core JavaScript -->
     <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
 
