@@ -67,7 +67,8 @@ p {
     border-color: rgba(34, 34, 34, .05);
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
-    transition: all .35s
+    transition: all .35s;
+    min-height: 70px;
 }
 .navbar-default .navbar-header .navbar-brand {
     color: #fdcc52
@@ -106,6 +107,9 @@ p {
 .navbar-default .nav>li.active>a:focus:hover,
 .navbar-default .nav>li.active>a:hover {
     background-color: transparent
+}
+.navbar-brand {
+    padding: 7px 15px;
 }
 @media (min-width: 768px) {
     .navbar-default {
@@ -154,7 +158,7 @@ header {
     overflow-y: hidden;
     background: url(../img/bg-pattern.png), #7b4397;
     background: url(../img/bg-pattern.png), -webkit-linear-gradient(to left, #7b4397, #dc2430);
-    background: url(../img/bg-pattern.png), linear-gradient(to left, #ccc, #1bb489);
+    background: url(../img/bg-pattern.png), linear-gradient(to left, #aaa, #1bb489);
     color: #fff
 }
 header .header-content {
