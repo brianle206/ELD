@@ -152,9 +152,9 @@ header {
     width: 100%;
     min-height: auto;
     overflow-y: hidden;
-    background: url("http://www.samsung.com/us/system/b2b/2016/10/13/industry/dashboard-mounted-tablet.gif"), #7b4397;
-    background: url("http://www.samsung.com/us/system/b2b/2016/10/13/industry/dashboard-mounted-tablet.gif"), -webkit-linear-gradient(to left, #7b4397, #dc2430);
-    background: url("http://www.samsung.com/us/system/b2b/2016/10/13/industry/dashboard-mounted-tablet.gif"), linear-gradient(to left, #7b4397, #dc2430);
+    background: url(../img/bg-pattern.png), #7b4397;
+    background: url(../img/bg-pattern.png), -webkit-linear-gradient(to left, #7b4397, #dc2430);
+    background: url(../img/bg-pattern.png), linear-gradient(to left, #7b4397, #dc2430);
     color: #fff
 }
 header .header-content {
