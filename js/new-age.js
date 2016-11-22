@@ -29,3 +29,10 @@
     })
 
 })(jQuery); // End of use strict
+
+// Countdown in first section
+$(document).ready( function() {
+  var countDown = Date.now();
+  //countDown = countDown.toString();
+  document.getElementById('countDown').innerHTML = countDown;
+});
